@@ -267,6 +267,7 @@ comments:
     visitor: true
     mathJax: false
     serverURLs: https://xxxx #leancloud上绑定的api地址，用于调用最新评论☆
+    newcomment: #true    #填了serverURLs后才能开启☆
     #以下为添加
     #recordIP: true
     master: ["fc2c9b067f65c9e2d7057ba797f7cfca"]   #你自己的邮箱地址 md5转化网站  https://md5jiami.51240.com/ ☆  这个是用于【评论】显示管理员和小伙伴标签
@@ -1023,9 +1024,9 @@ recent_posts:
 hot_posts:
   enable: #true   
 
-#加群广告
+#加群广告 ☆
 qunad:
-  enable: true  #关闭改为false
+  enable: #true  #关闭改为false
   qun_url: https://qm.qq.com/cgi-bin/qm/qr?k=2ymZ9hQ7tz9zykn3GMwk1nikIlBtDsxq&jump_from=webapi  #加群链接地址
   qun_pic: https://picup.heson10.com/img/upyun/2020/10/qqqun2.webp   #加群图片地址
   
