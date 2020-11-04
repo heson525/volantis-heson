@@ -107,16 +107,39 @@ Q1:首页文章的头图怎么添加？
 
 A1:在md文章头部的`frontmater`里面添加`headimg: 链接地址`
 
-Q2:怎么添加`分类`和`标签`页面？
+Q2:怎么添加`分类`、`标签`和`说说`页面？
 
 A2:输入命令：
 
 ```
 hexo new page categories
 hexo new page tags
+hexo new page bb
+hexo new page links          
+hexo new page guestbook
 ```
 
-然后分别在生成的两个index.md里的`frontmater`里面添加`layput: category`和`layput: tag`
+然后分别在生成的两个index.md里的`frontmater`里面添加`layput: category`和`layput: tag`和`layput: bb`和`layput: friends`
+
+| 命令                     | 对应模板         |
+| ------------------------ | ---------------- |
+| hexo new page categories | layput: category |
+| hexo new page tags       | layput: tag      |
+| hexo new page bb         | layput: bb       |
+| hexo new page links      | layput: friends  |
+| hexo new page guestbook  | 无               |
+
+Q3:怎么调用友情链接？
+
+A3:我用的是gitee动态调用，这样的好处是：可以直接申请审核，不用动代码加友情链接。
+
+我得调用代码：
+
+```
+{% issues sites | api=https://gitee.com/api/v5/repos/heson525_admin/links/issues?sort=created&direction=asc&labels=active&state=open&page=1&per_page=100 | group=group:技术大佬,朋友们 %}
+```
+
+其中api要换成自己的gitee链接，我这个链接中`heson525_admin`是我的用户名，`links`是仓库名后面的`group`是分组，`active`是判断是否显示的标签。
 
 **待完善，不懂请留言**
 
