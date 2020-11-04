@@ -266,9 +266,10 @@ comments:
     highlight: true
     visitor: true
     mathJax: false
+    serverURLs: https://xxxx #leancloud上绑定的api地址，用于调用最新评论☆
     #以下为添加
     #recordIP: true
-    master: ["fc2c9b067f65c9e2d7057ba797f7cfca"]   #你自己的邮箱地址 md5转化网站  https://md5jiami.51240.com/ ☆
+    master: ["fc2c9b067f65c9e2d7057ba797f7cfca"]   #你自己的邮箱地址 md5转化网站  https://md5jiami.51240.com/ ☆  这个是用于【评论】显示管理员和小伙伴标签
     friends: ["104e5bfa98048a2dac66f28ca4d4d846","e399c5e8f4b4b8b86fc88e2b5bd04497","32d39099d6da89788fe3827cb90b1eb7","a5c27d1df34fcd4d8195e7e7d16675d4","09c82fd631755bf5dbb04b4189225637","b548550ae129b82aa01b60e18ccbf141","6a565e6c47127afdd40d5d46089db2c5",4a713ec085a4431f15a8da0942656713","58bc3a8cecadf26a676e1b8f217698bc","aaf4fe5dd76d0a1390cbd08cdb16c05f","0a106ca9ec8d5e8a2d14f99e5b8bd863","3ecc56d90844b70e49d9f8a61e9cd98c","8a6f99e8ce4af26a93f20c0cbab8a186","5392ad0ec563aa56f6faf597ef966762","6bcf44de7033a4451f38d576fb6e6822","135ae111f8fcfeecc1ea1f06fde149ab"]
     #######################################################    以上是小伙伴的邮箱地址  md5转化https://md5jiami.51240.com/  ☆###################################################  
   # MiniValine
@@ -1018,9 +1019,9 @@ seo:
 recent_posts:
   enable: true
 
-# 热门文章 ☆
+# 热门文章 ☆ 默认关闭 需要手动修改热门文章
 hot_posts:
-  enable: true   
+  enable: #true   
 
 #加群广告
 qunad:

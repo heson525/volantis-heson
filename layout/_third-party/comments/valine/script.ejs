@@ -96,10 +96,10 @@ var valine = new Valine({
       el: '#valine_container_ba',
       notify: false,
       verify: false,
-      app_id: 'C1qWqsDatomXVctTafBuJADI-gzGzoHsz',
-      app_key: 'J4CujIoElz1Wo7yLUbY4SOO5',
+      app_id: '<%= theme.comments.valine.appId %>',
+      app_key: '<%= theme.comments.valine.appKey %>',
       placeholder: '发表您的意见，让我们一起交流，共同提高吧...',
-      serverURLs: 'https://valineapi.heson10.com'
+      serverURLs: '<%= theme.comments.valine.serverURLs %>'
 });
 
 //判断博主，heson改为自己的昵称

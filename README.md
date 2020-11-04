@@ -71,10 +71,8 @@ theme: volantis-heson
   "dependencies": {
     "hexo": "^5.1.1",
     "hexo-abbrlink": "^2.2.1",
-    "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-baidu-sitemap": "^0.1.9",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
