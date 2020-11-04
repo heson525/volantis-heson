@@ -21,7 +21,7 @@ info:
 navbar:
   visiable: auto # always 导航栏一直显示, auto 导航栏自动隐藏
   logo: # choose [img] or [icon + title]
-    img: https://picup.heson10.com/img/upyun/hesonlogoyasuo.gif
+    img: https://picup.heson10.com/img/upyun/hesonlogoyasuo.gif  #☆
     icon:
     title:
   menu:
@@ -252,8 +252,8 @@ comments:
   # Valine
   # https://valine.js.org/
   valine:
-    appId: C1qWqsDatomXVctTafBuJADI-gzGzoHsz     # 必须修改☆
-    appKey: J4CujIoElz1Wo7yLUbY4SOO5             # 必须修改☆
+    appId: xxxxxxxxxxx    # 必须修改☆
+    appKey: xxxxxxxxxxxxxxxxx             # 必须修改☆
     js: https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js
     path: # 全局评论地址
     placeholder: 填写邮箱会收到回复提示！粘贴图片可直接上传~  # 评论占位提示
@@ -576,9 +576,9 @@ plugins:
   ## 关注公众号 "哔哔点啥"，发送: //bindCurrentUser:你的APPID,你的MASTERKEY,你的RESTAPI   
   ## 可用leancloud国际版，国际版api为 https://appid前八位.api.lncldglobal.com 
   bbtime:
-    appId: 0KzOX4vC7Jsk6vzUGNeEiUaI-gzGzoHsz  #☆哔哔功能
-    appKey: HwCiWuxfpvKiLm4teCUgTIba           #☆
-    serverURLs: https://bbapi.heson10.com     #☆
+    appId: xxxxxxxxxxxx  #☆哔哔功能    创建leancloud存储空间即可   参考 https://www.heson10.com/posts/15701.html  关注微信公众号绑定
+    appKey: xxxxxxxxxxx           #☆  必须修改
+    serverURLs: https://xxxxxx     #☆  必须修改
   # 从 issues 加载动态数据
   # {% issues sites/timeline/friends | api=xxx | group=key:a,b,c %}
   # 例如：
