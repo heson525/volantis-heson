@@ -103,11 +103,22 @@ npm install && hexo cl && hexo g && hexo s
 
 ## Q&A
 
-Q:首页文章的头图怎么添加？
+Q1:首页文章的头图怎么添加？
 
-A:在md文章头部的`frontmater`里面添加`headimg: 链接地址`
+A1:在md文章头部的`frontmater`里面添加`headimg: 链接地址`
 
-待完善，不懂请留言
+Q2:怎么添加`分类`和`标签`页面？
+
+A2:输入命令：
+
+```
+hexo new page categories
+hexo new page tags
+```
+
+然后分别在生成的两个index.md里的`frontmater`里面添加`layput: category`和`layput: tag`
+
+**待完善，不懂请留言**
 
 ## 其他使用本主题的DEMO
 
