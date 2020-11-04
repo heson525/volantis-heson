@@ -1,58 +1,75 @@
-<p align="center">
-  <a href='https://volantis.js.org'><img src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png' height='120px'></a>
-</p>
+## 演示站
 
-## Getting Started
+https://www.heson10.com/voltantis
 
-Check your environment:
+效果图：
 
-```yaml
-Hexo: 4.2 ~ 5.x
-hexo-cli: 3.1 ~ 4.x
-node.js: 12.16 LTS ~ latest LTS
-npm: 6.13 ~ latest LTS
+![volantis-heson魔改版](https://7.dusays.com/2020/11/04/a3a0a83094db6.png)
+
+
+
+## 为什么创建这个？
+
+因为满足部分同志不愿修改主题的心愿，就把我之前用的魔改volantis放出来。
+
+## 相对于volantis修改的功能
+
+- 侧边栏左侧
+
+
+
+- 热门文章（手动加）
+
+![](https://7.dusays.com/2020/11/04/aee47db7cb65c.png)
+
+- 商用版本fontawesome（很全）
+
+![](https://7.dusays.com/2020/11/04/a8e55166f33dc.png)
+
+- 集成手机微信发送短博文功能，效果如：https://www.heson10.com/volantis/bb
+
+![](https://7.dusays.com/2020/11/04/17a3553131fa7.png)
+
+- github底部样式（默认关闭，配置文件可修改）
+ ![image-20201104133155951](C:\Users\Heson\AppData\Roaming\Typora\typora-user-images\image-20201104133155951.png)
+- 彩虹标签云
+
+![](https://7.dusays.com/2020/11/04/f5b40162c7040.png)
+
+- 谷歌思源宋体字体（快速异步加载）
+
+## 下载主题
+
+```
+git clone https://github.com/heson525/volantis-heson.git themes/volantis-heson
 ```
 
-Edit your `_config.yml`:
+## 更换主题
 
-```yaml
-theme: volantis
+打开根目录`_config.yml`文件
+
+```
+theme: volantis-heson
 ```
 
-Install Volantis in terminal:
+## 修改主题配置
 
-```bash
-npm i hexo-theme-volantis
-```
+在主题目录的config.yml中找到`☆`符号
 
-## Usage
+这些都是必须修改的项目，在修改的内容在里面已经说明
 
-See docs: https://volantis.js.org
+## Q&A
 
-or:  https://volantis.vercel.app
+Q:首页文章的头图怎么添加？
 
-## Examples
+A:在md文章头部的`frontmater`里面添加`headimg: 链接地址`
 
-See examples: https://volantis.js.org/examples/
+待完善，不懂请留言
 
-Add your blog to examples page: https://github.com/volantis-x/examples/issues/
+## 其他DEMO
 
-## Feedback
+暂时没人用。
 
-Feedback to developer: https://github.com/volantis-x/hexo-theme-volantis/issues/
+## 不懂的地方请留言
 
-Discuss with other users: https://github.com/volantis-x/community/issues/
-
-## Screenshot
-
-![](https://i.loli.net/2020/03/18/f5PQlWisvm9zbgK.jpg)
-
-![](https://i.loli.net/2020/03/18/XWBGf95E2t1bdnl.jpg)
-
-![](https://i.loli.net/2020/03/18/1TpiUwhuskGm5SV.png)
-
-![](https://i.loli.net/2020/03/18/LZwBtR5YO4zQH9A.png)
-
-![](https://i.loli.net/2020/03/18/ySw8zGHRBrDtUg7.png)
-
-![](https://i.loli.net/2020/03/18/5QTMYsScOz41Vhg.png)
+https://www.heson10.com
