@@ -1,0 +1,37 @@
+<%- partial('_pre') %>
+<section class="widget <%- item.class %> <%- page.widget_style %> <%- page.widget_platform %>">
+  <%- partial('header', {item: item}) %>
+
+
+  <% if (theme.recent_posts.enable) { %>
+  <% site.posts.sort('date', -1).each(function(post){ %>
+    <aside class="sidebar sidebar-ads sidebar-posts">
+      <div>
+      
+        <ul class="links-of-blogroll-list">
+
+            <li>
+             
+              <div class="post-name">
+                <div><a href="<%- url_for(post.link || post.path) %>" title="<%- post.title %>" ><%- post.title %></a></div>
+              </div>
+            </li>
+    
+        </ul>
+      </div>
+    </aside>
+    
+
+
+
+
+
+  
+    <% }) %>
+    
+    <% }%>
+  
+</section>
+
+
+

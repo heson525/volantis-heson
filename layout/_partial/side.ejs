@@ -1,0 +1,129 @@
+<aside class='l_side'>
+  <div style="margin-bottom: 16px;border-radius: 8px;" class='shadow floatable widget_author desktop'>
+    <div id="zuozhebg" class="newauthor"
+      style="background: url(<%- theme.article.body.meta_library.author.avatar %>) center center no-repeat;background-size:cover">
+    </div>
+    <div class="relive_widget_v3">
+      <div class="box-author-info">
+        <div class="author-face">
+          <a href="/about" target="_blank" rel="nofollow" title="关于<%= config.author || config.title %>">
+            <img no-lazy alt="" src="<%- theme.article.body.meta_library.author.avatar %>"
+              class="avatar avatar-200 photo" height="200" width="200"> </a>
+        </div>
+        <div class="author-name"><%= config.author || config.title %></div>
+        <div id="author-one" class="author-one">
+          <script>
+            var binft = function (r) {
+              function t() {
+                return b[Math.floor(Math.random() * b.length)]
+              }
+              function e() {
+                return String.fromCharCode(94 * Math.random() + 33)
+              }
+              function n(r) {
+                for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+                  var l = document.createElement("span");
+                  l.textContent = e(), l.style.color = t(), n.appendChild(l)
+                }
+                return n
+              }
+              function i() {
+                var t = o[c.skillI];
+                c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
+              }
+              var l = "",
+                o = ["人生在勤，不索何获", "日日待明日,万事成蹉跎", "丈夫志四海，万里犹比邻", "还在看这里吗？", "能不能别看了？", "文章更精彩...."].map(function (r) {
+                  return r + ""
+                }),
+                a = 2,
+                g = 1,
+                s = 5,
+                d = 75,
+                b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+                c = {
+                  text: "",
+                  prefixP: -s,
+                  skillI: 0,
+                  skillP: 0,
+                  direction: "forward",
+                  delay: a,
+                  step: g
+                };
+              i()
+            };
+            binft(document.getElementById('author-one'));
+          </script>
+
+
+        </div>
+        <div class="site-state-wrap motion-element">
+          <nav class="site-state">
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+
+                <span class="site-state-item-count"><%- site.posts.length %></span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/">
+                <span class="site-state-item-count"><%- site.categories.length %></span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/">
+                <span class="site-state-item-count"><%- site.tags.length %></span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <% if(theme.hot_posts.enable) {%> 
+      <!-- 主题配置文件开启此功能 按需修改文章标题和链接  -->
+      <dl class="article-newest">
+        <dt>———<span class="tit" style="font-weight: bold;">热门文章</span>———</dt>
+        <li>
+          <span class="order od-1">1</span>
+          <a href="/posts/7207.html" title="Hexo博客调用Valine最新评论"><i
+              class="iconfont icon-sanjiao"></i>Hexo博客调用Valine最新评论</a>
+        </li>
+        <li>
+          <span class="order od-2">2</span>
+          <a href="/posts/53612.html" title="记录一次24H在线要饭系统的搭建"><i class="iconfont icon-sanjiao"></i>记录一次24H在线要饭系统的搭建</a>
+        </li>
+        <li>
+          <span class="order od-3">3</span>
+          <a href="/posts/5892.html" title="给博客增加彩色标签云"><i class="iconfont icon-sanjiao"></i>给博客增加彩色标签云</a>
+        </li>
+        <li>
+          <span class="order od-4">4</span>
+          <a href="/posts/28396.html" title="所有关于Valine评论系统的配置都在这里【合集】"><i
+              class="iconfont icon-sanjiao"></i>所有关于Valine评论系统的配置都在这里【合集】</a>
+        </li>
+        <li>
+          <span class="order od-5">5</span>
+          <a href="/posts/54971.html" title="Hexo在GitHub和Coding双线部署教程"><i
+              class="iconfont icon-sanjiao"></i>Hexo在GitHub和Coding双线部署教程</a>
+        </li>
+        <li>
+          <span class="order od-6">6</span>
+          <a href="/posts/121.html" title="用hexo+github pages+独立域名搭建个人博客"><i
+              class="iconfont icon-sanjiao"></i>用hexo+github pages+独立域名搭建个人博客</a>
+        </li>
+      </dl>
+      <% }%>
+
+    </div>
+  </div>
+
+  <% if(theme.qunad.enable) {%> 
+  <div style="text-align:center;border-radius: 8px;margin-bottom: 8px;" class="widget desktop">
+    <a href="<%= theme.qunad.qun_url%>"><img style="border-radius: 5px;"
+        src="<%= theme.qunad.qun_pic%>" /></a>
+  </div>
+  <% }%>
+
+  <%- partial('../_widget/load', {widgets: page.sidebar, where: 'sidebar'}) %>
+</aside>

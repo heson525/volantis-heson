@@ -1,0 +1,29 @@
+<%- partial('_pre') %>
+<% page.comments = false; %>
+<%- partial('_partial/side') %>
+<div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
+  <% if (site.posts && site.posts.length > 0) { %>
+    <% if (page.layout == 'tag') { %>
+      <div class='post-wrapper'>
+        <article id="tag" class="post article white-box reveal <%- theme.custom_css.body.effect.join(' ') %>">
+          <h2><%- page.title %></h2>
+          <div class="all-tags">
+            <span>按文章数量排列：</span>
+            <% let tc = theme.sidebar.widget_library.tagcloud; %>
+            <%- list_tags(site.tags,{orderby: 'length', order: 'desc',amount: 0,
+            transform(str) {
+              return str.toUpperCase();
+            }}) %>
+            
+          </div>
+          <script>colortag();</script>
+          <br>
+          <%- page.content %>
+        </article>
+      </div>
+    <% } else { %>
+      <%- partial('_partial/archive') %>
+    <% } %>
+  <% } %>
+</div>
+

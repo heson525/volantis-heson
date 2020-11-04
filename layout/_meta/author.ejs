@@ -1,0 +1,11 @@
+<%
+if (post.author == undefined) {
+  post.author = theme.article.body.meta_library.author;
+}
+%>
+<div class='new-meta-item author'>
+  <a class='author' href="<%- post.author.url %>" rel="nofollow">
+    <img no-lazy src="<%- post.author.avatar %>">
+    <p><%- post.author.name %></p>
+  </a>
+</div>
