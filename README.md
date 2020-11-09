@@ -15,7 +15,7 @@ https://www.heson10.com/volantis
 ## 相对于volantis修改的功能
 
 - 侧边栏左侧
-
+- 上升气泡
 - 热门文章（手动加）
 
 ![](https://7.dusays.com/2020/11/04/aee47db7cb65c.png)
@@ -101,7 +101,7 @@ npm install && hexo cl && hexo g && hexo s
 
 这些都是必须修改的项目，在修改的内容在里面已经说明
 
-## Q&A
+## FAQ
 
 Q1:首页文章的头图怎么添加？
 

@@ -519,7 +519,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [copyright, hexo, icp, cdn] #☆ 在下方修改自己想要的底部信息
+  layout: [copyright, hexo] #☆ 在下方修改自己想要的底部信息  如icp、cdn
   social:
     - icon: #fal fa-rss
       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg
@@ -558,7 +558,7 @@ site_footer:
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   hexo: '<div><p>本站使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://volantis.js.org/" data-pjax-state="">Volantis</a> 作为主题 | 由 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/zh-cn/" data-pjax-state="">Hexo</a> 强力驱动</p>
 </div>'
-  icp: '<a rel="noopener" href="https://beian.miit.gov.cn" target="_blank">赣ICP备20008960号</a> '
+  icp: '<a rel="noopener" href="https://beian.miit.gov.cn" target="_blank">赣ICP备20008960号</a> ' #修改icp信息，不要可注释 ☆
   cdn: '<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="nofollow noopener noreferrer"><img src="https://pic.heson10.com/wallpapers/yun_logo6.png"  width="60px" height="30px"/></a>'
   travellings: '<a href="https://travellings.now.sh/" target="blank" rel="nofollow noopener noreferrer" title="开往-友链接力"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>'
   ribbon: '<script id="ribbon" mobile="true" src="https://cdn.jsdelivr.net/gh/heson525/pic@master/img/ribbons2.js"></script>' #背景彩条纹 在上方layout里面加上 ribbon即可
