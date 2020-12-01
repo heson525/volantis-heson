@@ -141,12 +141,3 @@ A3:我用的是gitee动态调用，这样的好处是：可以直接申请审核
 
 其中api要换成自己的gitee链接，我这个链接中`heson525_admin`是我的用户名，`links`是仓库名后面的`group`是分组，`active`是判断是否显示的标签。
 
-**待完善，不懂请留言**
-
-## 其他使用本主题的DEMO
-
-暂时没人用。😂
-
-## 不懂的地方请留言
-
-https://www.heson10.com/guestbook/
