@@ -119,7 +119,7 @@ hexo new page links
 hexo new page guestbook
 ```
 
-然后分别在生成的两个index.md里的`frontmater`里面添加`layput: category`和`layput: tag`和`layput: bb`和`layput: friends`
+然后分别在生成的两个index.md里的`frontmater`里面添加`layout: category`和`layout: tag`和`layout: bb`和`layout: friends`
 
 | 命令                     | 对应模板         |
 | ------------------------ | ---------------- |
