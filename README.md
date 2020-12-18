@@ -123,10 +123,10 @@ hexo new page guestbook
 
 | 命令                     | 对应模板         |
 | ------------------------ | ---------------- |
-| hexo new page categories | layput: category |
-| hexo new page tags       | layput: tag      |
-| hexo new page bb         | layput: bb       |
-| hexo new page links      | layput: friends  |
+| hexo new page categories | layout: category |
+| hexo new page tags       | layout: tag      |
+| hexo new page bb         | layout: bb       |
+| hexo new page links      | layout: friends  |
 | hexo new page guestbook  | 无               |
 
 Q3:怎么调用友情链接？
